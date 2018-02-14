@@ -1,0 +1,37 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "A vanilla structure for webdev",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^5.1.0",
+    "gulp-line-ending-corrector": "^1.0.2",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sort": "^2.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "^1.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Idearia/vanilla-gulp.git"
+  },
+  "author": "Idearia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Idearia/vanilla-gulp/issues"
+  },
+  "homepage": "https://github.com/Idearia/vanilla-gulp#readme"
+}
