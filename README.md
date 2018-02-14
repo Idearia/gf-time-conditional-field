@@ -53,8 +53,12 @@ function form_time_conditions() {
 	// var_dump( $conditions );
 
 	wp_add_inline_script( 'Idearia\Gf_Time_Conditional_Fieldcustom', $conditions );
+
+
+	// insert datepicker id and id of the select for the time
 	$config = ['datepickerId' => '#input_1_5', 'timeselectId' => '#input_1_4'];
 	wp_localize_script( 'Idearia\Gf_Time_Conditional_Fieldcustom', 'config', $config );
+	
 }
 add_action( 'wp_enqueue_scripts', 'form_time_conditions' );
 
