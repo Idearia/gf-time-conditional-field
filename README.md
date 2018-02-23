@@ -1,4 +1,4 @@
-#TODO:
+# TODO
 
 1. 1st approach:
  * [] Emulate Gravity Perks Conditional Logic Dates
@@ -8,7 +8,7 @@
 2. 2nd approach:
  * [X] Dynamically populate select based on logical condition field
 
-#How to use
+# HOW-TO
 
 Add in function.php
 
@@ -72,7 +72,7 @@ The handler for all the scripts is `Idearia\Gf_Time_Conditional_Fieldcustom`
 
 Here is a clean Javascript example of timeFilters, you can use a js file to, and register it as a script.
 
-```
+```js
 var timeFilters = [
 	function time_only_lunch(date, day) {
 		var regex = new RegExp(/^15[\/-]02[\/-]2018$/);
