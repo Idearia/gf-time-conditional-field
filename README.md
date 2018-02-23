@@ -1,17 +1,18 @@
 #TODO:
 
-1. 1st aproach
-	[] Emulate Gravity Perks Conditional Logic Dates
-	[] Emulate Gravity Perks Limit Dates
-	[~] Use Regex to write the selected value to a hidden form.
+1. 1st approach:
+ * [] Emulate Gravity Perks Conditional Logic Dates
+ * [] Emulate Gravity Perks Limit Dates
+ * [~] Use Regex to write the selected value to a hidden form.
 
-2. 2nd aproach
-	[X] Dynamically populate select based on logical condition field
-
+2. 2nd approach:
+ * [X] Dynamically populate select based on logical condition field
 
 #How to use
+
 Add in function.php
-```
+
+```php
 function form_time_conditions() {
 	ob_start();
 ?>
@@ -70,6 +71,7 @@ In timeFilters you can add all the functions you want to be called on date updat
 The handler for all the scripts is `Idearia\Gf_Time_Conditional_Fieldcustom`
 
 Here is a clean Javascript example of timeFilters, you can use a js file to, and register it as a script.
+
 ```
 var timeFilters = [
 	function time_only_lunch(date, day) {
