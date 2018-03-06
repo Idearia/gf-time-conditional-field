@@ -1,13 +1,3 @@
-# TODO
-
-1. 1st approach:
- * [] Emulate Gravity Perks Conditional Logic Dates
- * [] Emulate Gravity Perks Limit Dates
- * [~] Use Regex to write the selected value to a hidden form.
-
-2. 2nd approach:
- * [X] Dynamically populate select based on logical condition field
-
 # HOW-TO
 
 Add in function.php
