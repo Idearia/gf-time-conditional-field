@@ -36,7 +36,6 @@ jQuery(document).ready(function($) {
 			// on datepicker change after gform_post_render was triggered.
 			$(config.datepickerId).change(function() {
 				timeSelectUpdate();
-				console.log("Ciao sono Elfo!");
 			});
 
 			// update time global variable
